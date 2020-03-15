@@ -47,7 +47,8 @@ public class LoginPage extends TestBase{
 		txtusername.sendKeys(un);		
 		txtpassword.sendKeys(pwd);		
 		btnLogin.click();
-		
+		//After successful login, the user should navigate to the homepage, which means
+		//the login page is giving the homepage object
 		return new HomePage();
 	}
 
