@@ -34,7 +34,7 @@ public class LoginPage extends TestBase{
 	}
 	
 	
-	//Actions / Methods
+	//Actions / Methods add
 	
 	public String validateLoginPageTitle() {
 		
