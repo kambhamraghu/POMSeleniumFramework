@@ -19,7 +19,7 @@ public class LoginPageTest extends TestBase {
 
 	}
 	
-	//Test cases should be seperated -- independent with each other
+	//Test cases should be separated -- independent with each other
 	//If we have 100 test cases and executed all them without closing the browser then we might face issues like coockie issues,
 	//cache issues, memory leak issues etc.
 	//So always quit the browser after completing the test case and follow @BeforeMethod, @Test, @AfterMethod - which is a very good practice
